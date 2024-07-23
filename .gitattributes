@@ -1,0 +1,12 @@
+# Treat all files as text and normalize line endings on check-in
+* text=auto
+
+# Explicitly declare text files we want to always be normalized and converted to native line endings
+*.java text eol=lf
+*.properties text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.xml text eol=lf
+*.md text eol=lf
+
+.gitattributes text eol=lf
